@@ -1,0 +1,42 @@
+.cont{
+    flex: 1;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    background-color: #191919;
+    min-height: 200vh;
+    min-width: 100%;
+}
+
+.row {
+    display: flex;
+    margin: auto;
+    margin-right: 10%;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 100%;
+    
+  }
+  
+  .column img {
+
+
+    width: 100%;
+
+  }
+  
+
+.cos{
+    margin-left: 10%;
+    height: auto;
+    width: auto;
+}
+h2{
+    color: #fff
+}
+h3{
+    color: #fff
+}

@@ -1,0 +1,59 @@
+
+
+.App-header {
+    background-color: #191919;
+    min-height: 100vh;
+    min-width: 100vh;
+
+    color: white;
+  }
+
+.first_pic{
+    
+    margin: auto;
+
+    margin-top: 100px;
+
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    min-height: 50vh;
+    min-width: 150vh;
+    padding-left: 15%;
+    background-color:#191919;
+    text-align: left;
+}
+h1{
+    max-width: 50%;
+    white-space: normal;
+    line-height: 0.5em;
+}
+
+img{
+    padding-right: 10%;
+    max-width: 50%;
+
+
+}
+
+#second_pic{
+    
+    margin: auto;
+
+    margin-top: 100px;
+    padding-bottom: 6%;
+    padding-top: 6%;
+    margin-bottom: 5%;
+    
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    min-height: 50vh;
+    min-width: 184vh;
+    padding-left: 10%;
+    background-color:#000000;
+    text-align: left;
+}
+
