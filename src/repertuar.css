@@ -4,7 +4,7 @@
     align-items: flex-start;
     justify-content: space-around;
     background-color: #191919;
-    min-height: 200vh;
+    min-height: 300vh;
     min-width: 100%;
 }
 
@@ -12,6 +12,7 @@
     display: flex;
     margin: auto;
     margin-right: 10%;
+    margin-bottom: 3%;
   }
   
   /* Create four equal columns that sits next to each other */
@@ -30,13 +31,90 @@
   
 
 .cos{
-    margin-left: 10%;
+    margin-left: 15%;
     height: auto;
     width: auto;
 }
 h2{
     color: #fff
 }
-h3{
+h3,h1{
     color: #fff
+}
+
+.teraz_gramy{
+  margin-left: 5%;
+  margin-right: 8%;
+  padding-left: 23%;
+  text-align: center;
+  min-height: 100px;
+  padding-top: 2%;
+  border-bottom: 2px solid #600186;
+  margin-bottom: 2%;
+}
+
+.cal{
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+  padding-top: 10px;
+  padding-left: 10px;
+  width: 300px;
+  height: 60px;
+  background-color: #191919
+}
+.card{
+  border-radius: 9px;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+  height: 50px;
+  width: 50px;
+  background-color: #600186;
+  border-style: none;
+  
+}
+
+.card:hover{
+  background:linear-gradient(to bottom, #a20dbd 5%, #c123de 100%);
+	background-color:#a20dbd;
+}
+
+.card:active{
+  position:relative;
+	top:3px;
+}
+
+.date{
+  font-weight: 700;
+}
+
+.rowBot{
+  display: flex;
+  margin-right: 10%;
+
+  padding-bottom: 5%
+
+}
+
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: #923DB7;
+}
+
+/* selected link */
+a:active {
+  color: white;
 }

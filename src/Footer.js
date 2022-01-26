@@ -15,7 +15,7 @@ const Footer = () => <footer className="page-footer font-small blue pt-4">
         </div>
         
     </div>
-    <div style={{color: "white", backgroundColor: "black",paddingBottom: "10px", paddingLeft: "10px"}}>© 2020 Copyright: Katedra Informatyki PWSZ
+    <div style={{color: "white", backgroundColor: "#0d0d0d",paddingBottom: "10px", paddingLeft: "10px"}}>© 2020 Copyright: Katedra Informatyki PWSZ
     </div>
 
         

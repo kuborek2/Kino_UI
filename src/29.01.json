@@ -1,0 +1,34 @@
+[
+    {
+        "image":
+          "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/aWeKITRFbbwY8txG5uCj4rMCfSP.jpg",
+        "title": "Sing 2",
+        "link" : "https://www.themoviedb.org/movie/438695-sing-2",
+        "seans1": "11:30 2D DUBBING",
+        "seans2": "16:50 2D DUBBING"
+      },
+      {
+        "image":
+          "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg",
+        "title": "Spider-Man: No Way Home",
+        "link" : "https://www.themoviedb.org/movie/634649-spider-man-no-way-home",
+        "seans1": "13:30 2D DUBBING",
+        "seans2": "20:00 2D NAPISY"
+      },
+      {
+        "image":
+          "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/8c4a8kE7PizaGQQnditMmI1xbRp.jpg",
+        "title": "The Matrix Resurrections",
+        "link" : "https://www.themoviedb.org/movie/624860-the-matrix-resurrections",
+        "seans1": "15:00 2D NAPISY",
+        "seans2": "17:30 2D NAPISY"
+      },
+      {
+        "image":
+          "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/kZNHR1upJKF3eTzdgl5V8s8a4C3.jpg",
+        "title": "Scream",
+        "link" : "https://www.themoviedb.org/movie/646385-scream",
+        "seans1": "12:15 2D NAPISY",
+        "seans2": "18:30 2D NAPISY"
+      }
+    ]

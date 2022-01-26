@@ -1,17 +1,21 @@
 .App {
   text-align: center;
   border-bottom: 1px solid #191919;
+  max-height : 120px;
 }
 
 #navbar{
-  background-color:black;
-  padding: 1.5%;
+  background-color: #0d0d0d;
+  display: flex;
+  flex-direction: row;
+  font-family: 'Source Sans Pro', sans-serif;
 
 }
 #link{
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 26px;
-  word-spacing: 30px;
+  padding-left: 30px;
+  /* word-spacing: 30px; */
 
   text-decoration: none;
   
@@ -46,8 +50,8 @@ a:hover{
   color: #61dafb;
 }
 
-hr {
-  margin: 0;
-  border: 1px solid red;
-}
 
+
+.cos{
+  word-spacing: 0;
+}

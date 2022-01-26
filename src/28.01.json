@@ -1,0 +1,36 @@
+[
+
+  {
+    "image":
+      "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/aWeKITRFbbwY8txG5uCj4rMCfSP.jpg",
+    "title": "Sing 2",
+    "link" : "https://www.themoviedb.org/movie/438695-sing-2",
+    "seans2": "13:30 2D DUBBING",
+    "seans1": "20:00 2D DUBBING"
+    
+  },
+  {
+    "image":
+      "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/e143CxHsD7oVxqrxk29I5SJrjrl.jpg",
+    "title": "Belle",
+    "link" : "https://www.themoviedb.org/movie/776305",
+    "seans1": "15:00 2D NAPISY",
+    "seans2": "17:30 2D NAPISY"
+  },
+  {
+    "image":
+      "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/nj5HmHRZsrYQEYYXyAusFv35erP.jpg",
+    "title": "The King's Man",
+    "link" : "https://www.themoviedb.org/movie/476669-the-king-s-man",
+    "seans1": "11:30 2D NAPISY",
+    "seans2": "16:50 2D NAPISY"
+  },
+  {
+    "image":
+      "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg",
+    "title": "Spider-Man: No Way Home",
+    "link" : "https://www.themoviedb.org/movie/634649-spider-man-no-way-home",
+    "seans1": "12:15 2D DUBBING",
+    "seans2": "18:30 2D NAPISY"
+  }
+]
