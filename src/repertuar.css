@@ -4,22 +4,26 @@
     align-items: flex-start;
     justify-content: space-around;
     background-color: #191919;
-    min-height: 300vh;
-    min-width: 100%;
+    min-height: 150vh;
+    max-width: 100%;
 }
 
 .row {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     margin: auto;
     margin-right: 10%;
-    margin-bottom: 3%;
+    padding-bottom: 3%;
   }
   
   /* Create four equal columns that sits next to each other */
   .column {
     flex: 25%;
-    max-width: 100%;
-    
+    min-width: 27%;
+    max-width: 33%;
+    margin-bottom: 2%;
+    padding: 2%;
   }
   
   .column img {
