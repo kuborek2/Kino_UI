@@ -118,3 +118,16 @@ a:hover {
 a:active {
   color: white;
 }
+
+.mapFilms{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+
+}
+
+.filmTitle{
+  font-size: 10px;
+  align-items: center;
+  padding-bottom:5%;
+}

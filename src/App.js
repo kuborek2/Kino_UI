@@ -8,6 +8,7 @@ import Navigation from './Navigation.js';
 import Footer from './Footer.js';
 import Tickets from './Tickets.js';
 import About from './about.js'
+import Reservation from './Reservation.js'
 function App() {
   return (
     <div >
@@ -18,6 +19,7 @@ function App() {
              <Route path='/tickets' element={<Tickets/>}/>  
              <Route path='/about' element={<About/>}/> 
              <Route path='/' element={<Test2/>}/>  
+             <Route path='reservation' element={<Reservation/>}/>  
           </Routes>
           <Footer/>
     </div>
