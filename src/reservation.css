@@ -1,0 +1,184 @@
+.mainBox{
+    background-color:#191919;
+    /* min-height: 120vh;
+    min-width: 100vh; */
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    color: white;
+}
+
+.separator {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 1px;
+    min-height: 60vh;
+    max-height: 60vh;
+    border-left-width: 2px;
+    border-left-style: solid;
+    border-left-color: #600186;
+}
+
+.smallSeparator {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 1px;
+    min-height: 30vh;
+    max-height: 30vh;
+    border-left-width: 2px;
+    border-left-style: dashed;
+    border-left-color: #600186;
+    margin: 2vw;
+}
+
+/* Right film info panel ####################################### */
+
+.film-info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 38%;
+    padding: 2vw;
+}
+
+.film-info > img {
+    padding: 0px;
+    padding-bottom: 3vh;
+}
+
+.film-info > div {
+    text-align: center;
+    font-size: 1.7em;
+    width: 78%
+}
+
+.film-info > div > article
+{
+    color: #923DB7; 
+    margin: 1vh;
+}
+
+.film-info > div > article > span
+{
+    color: white;
+    margin: 1vh;
+}
+
+/* purchase Details panel ####################################### */
+
+.purchaseDetail {
+    width: 60%;
+    padding: 2vw;
+}
+
+.purchaseDetail > h3 {
+    text-align: center;
+    line-height: 1.3em;
+    font-size: 2em;
+    color: #923DB7;
+}
+
+.purchaseDetail > .content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.formInput {
+    margin: 1vw;
+}
+
+.purchaseDetail > .content > .form {
+    width: 40%;
+    justify-content: flex-start;
+    padding-top: 2vh;
+}
+
+.purchaseDetail > .content > .sitChooserContainer {
+    width: 56%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.purchaseDetail > .content > .sitChooserContainer > h3 {
+    text-align: center;
+}
+
+.purchaseDetail > .content > .sitChooserContainer > select {
+    width: 50%;
+    margin-bottom: 2vh;
+}
+
+/* .purchaseDetail > .content > .sitChooserContainer > .visualSits > div#normalSeats > span > div {
+    display: inline;
+    width: 25px;
+    height: 25px;
+    padding: 3px;
+    margin: 3px;
+    background-color: greenyellow;
+    border: 3px solid rgb(0, 0, 0) !important;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.purchaseDetail > .content > .sitChooserContainer > .visualSits > div#vipSeats > span > div {
+    display: inline;
+    width: 25px;
+    height: 25px;
+    padding: 3px;
+    margin: 3px;
+    background-color: yellow;
+    border: 3px solid rgb(0, 0, 0) !important;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}  */
+
+.normalEnabled {
+    display: inline;
+    width: 25px;
+    height: 25px;
+    padding: 3px;
+    margin: 3px;
+    background-color: greenyellow;
+    border: 3px solid rgb(0, 0, 0) !important;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.vipEnabled {
+    display: inline;
+    width: 25px;
+    height: 25px;
+    padding: 3px;
+    margin: 3px;
+    background-color: yellow;
+    border: 3px solid rgb(0, 0, 0) !important;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+} 
+
+.disabledInput {
+    display: inline;
+    width: 25px;
+    height: 25px;
+    padding: 3px;
+    margin: 3px;
+    background-color: red;
+    border: 3px solid rgb(0, 0, 0) !important;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.purchaseDetail > .content > .sitChooserContainer > .visualSits > div#normalSeats {
+    display: block;
+}
+
+.purchaseDetail > .content > .sitChooserContainer > .visualSits > div#vipSeats {
+    display: none;
+} 
+

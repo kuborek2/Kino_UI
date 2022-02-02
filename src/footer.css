@@ -1,4 +1,6 @@
 .footer_pic{
+    margin-right: 0;
+    margin-left: 0;
     margin-left: 0;
 
     flex-direction: row;
@@ -6,7 +8,7 @@
     justify-content: start;
     display: flex;
     min-height: 10vh;
-    min-width: 184vh;
+    max-width: 100%;
     padding-left: 10%;
     background-color:#0d0d0d;
     text-align: left;
