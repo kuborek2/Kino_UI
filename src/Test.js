@@ -11,8 +11,7 @@ import rep2 from './28.01.json';
 import rep3 from './29.01.json';
 import soon1 from './soon1.json';
 import soon2 from './soon2.json';
-function Test() {
-
+function Test({navigation, Route}) {
 
   const [dateButtonArray, setdateButtonArray] = useState([]);
   const [currentMonth, setCurrentMonth] = useState(0);
@@ -24,6 +23,10 @@ function Test() {
   const filmsUrl = 'http://localhost:8080/api/v1/films';
   const seasesUrl = 'http://localhost:8080/api/v1/seanse';
   // const testUrl = 'http://localhost:8080/api/v1/seans?id=5';
+
+  const moveToBiletSellSite = () => {
+    navigation.navigate()
+  }
 
   React.useEffect(() => {
     if ( currentMonth== 0 && currentDay == 0 ){
@@ -74,8 +77,6 @@ function Test() {
   }
 
   const checkCurrentSeanses = () => {
-    console.log("currentDay: ",currentDay)
-    console.log("currentmonth: ",currentMonth)
     let currSeanesToDisplay = [];
 
     const m = 4;
@@ -104,55 +105,63 @@ function Test() {
 
   return (
     <div className='cont'>
-      <div class="teraz_gramy">
+      <div className="teraz_gramy">
         <h1 style={{marginLeft:"4%"}}>Teraz Gramy</h1>
       </div>
-      <div class="cos">
-      <div class="cal">
-      <button class="card" onClick={()=>{changeCurrentData(0)}}>
-        <h7 class="date">Czw</h7>
+      <div className="cos">
+      <div className="cal">
+      <button className="card" onClick={()=>{changeCurrentData(0)}}>
+        <h7 className="date">Czw</h7>
         <h7>{dateButtonArray[0]}</h7>
       </button>
-      <button class="card" onClick={()=>{changeCurrentData(1)}}>
-        <h7 class="date">Pt</h7>
+      <button className="card" onClick={()=>{changeCurrentData(1)}}>
+        <h7 className="date">Pt</h7>
         <h7>{dateButtonArray[1]}</h7>
       </button>
-      <button class="card" onClick={()=>{changeCurrentData(2)}}>
-        <h7 class="date">Sb</h7>
+      <button className="card" onClick={()=>{changeCurrentData(2)}}>
+        <h7 className="date">Sb</h7>
         <h7>{dateButtonArray[2]}</h7>
       </button>
-      <button class="card" onClick={()=>{changeCurrentData(3)}}>
-        <h7 class="date">Nd</h7>
+      <button className="card" onClick={()=>{changeCurrentData(3)}}>
+        <h7 className="date">Nd</h7>
         <h7>{dateButtonArray[3]}</h7>
       </button>
-      <button class="card" onClick={()=>{changeCurrentData(4)}}>
-        <h7 class="date">Pn</h7>
+      <button className="card" onClick={()=>{changeCurrentData(4)}}>
+        <h7 className="date">Pn</h7>
         <h7>{dateButtonArray[4]}</h7>
       </button>
     </div>
-      <div class="row">
+      <div className="row">
         
         {seansesToDisplay.map(cos =>(
-          <div class="column">
-          <h2>{cos.tytul}</h2>
-          <a href={cos.link} target="_blank" rel="noopener noreferrer">
-          <img style={{paddingLeft: "15%"}} src={cos.zdjecie}></img>
-          </a>
-          {}
-          {/* <h3><a  style={{textDecoration: "none"}} href="/">{cos.seans1}</a></h3>
-          <h3><a  style={{textDecoration: "none"}} href="/">{cos.seans2}</a></h3> */}
+          <div className="column">
+            {/* <Link  id="link" to="/reservation"> */}
+            <Link style={{textDecoration: 'none',}}  to={
+                {     
+                  pathname: '/reservation?id_se='+cos.id_se,
+                  state: cos.id_se,
+                }
+            }> 
+            <h2>{cos.tytul}</h2>
+            {/* <a href={cos.link} target="_blank" rel="noopener noreferrer"> */}
+              <img style={{paddingLeft: "15%"}} src={cos.zdjecie}></img>
+            {/* </a> */}
+            <h3>{cos.godzina.slice(0, 5)}</h3>
+            {/* <h3><a  style={{textDecoration: "none"}} href="/">{cos.seans1}</a></h3>
+            <h3><a  style={{textDecoration: "none"}} href="/">{cos.seans2}</a></h3> */}
+            </Link>
         </div>
         ))}
         
       </div>
       </div>
-      <div class="teraz_gramy">
+      <div className="teraz_gramy">
         <h1 style={{marginLeft:"4%"}}>Wkrótce</h1>
       </div>
-      <div class="cos">
-        <div class="row">
+      <div className="cos">
+        <div className="row">
           {films.map(cos =>(
-            <div class="column">
+            <div className="column">
               <h2>{cos.tutyl}</h2>
               <a href={cos.zdjecie} target="_blank" rel="noopener noreferrer">
                 <img style={{paddingLeft: "10%"}} src={cos.zdjecie}></img>
