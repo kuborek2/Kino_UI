@@ -162,7 +162,7 @@ function Test({navigation, Route}) {
         <div className="row">
           {films.map(cos =>(
             <div className="column">
-              <h2>{cos.tutyl}</h2>
+              <h2>{cos.tytul}</h2>
               <a href={cos.zdjecie} target="_blank" rel="noopener noreferrer">
                 <img style={{paddingLeft: "10%"}} src={cos.zdjecie}></img>
               </a>
